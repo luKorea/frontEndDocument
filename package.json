@@ -1,0 +1,32 @@
+{
+  "name": "frontend-basic",
+  "version": "1.0.0",
+  "description": "doc# frontend-basic 前端基础知识汇总",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx live-server --open=./src",
+    "vuepress": "vuepress dev doc",
+    "docs:dev": "vuepress dev doc",
+    "docs:build": "vuepress build doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/su37josephxia/frontend-basic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/su37josephxia/frontend-basic/issues"
+  },
+  "homepage": "https://github.com/su37josephxia/frontend-basic#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "github-webhook-handler": "^0.7.1",
+    "requirejs": "^2.3.6",
+    "thunkify": "^2.1.2"
+  }
+}
